@@ -1,0 +1,58 @@
+
+body{
+    background-image: url(img/homebg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.mic{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+}
+
+.mic img{
+    border-radius: 10%;
+    height: auto;
+}
+
+.des{
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+
+}
+
+.des h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.des p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.des i{
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.about{
+    width: 200px;
+    position: absolute;
+    left: 57%;
+    top: 53%;
+}
+
+.about a{
+    list-style: none;
+}
+
